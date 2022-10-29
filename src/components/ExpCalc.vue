@@ -1,7 +1,5 @@
 <template>
-      <div
-        class="relative bg-[#251B37] px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10"
-      >
+      <div class="relative bg-[#251B37] px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
         <div class="mx-auto max-w-md border-double">
           <div class="text-right p-2 my-2 bg-[#372948] text-white rounded-lg">
             Total: {{ total || 0 }}
@@ -88,6 +86,23 @@
         if (n == "-") {
           this.exp = this.exp + n;
           this.ultraSTR = this.ultraSTR + n;
+        }
+        /* Prevents operator signs to Concatenate */
+        if ((this.exp).includes("--")) {
+          this.exp = (this.exp).replace("--", "+");
+          this.ultraSTR = (this.ultraSTR).replace("--", "+");
+        }
+        if ((this.exp).includes("++")) {
+          this.exp = (this.exp).replace("++", "-");
+          this.ultraSTR = (this.ultraSTR).replace("++", "-");
+        }
+        if ((this.exp).includes("+-")) {
+          this.exp = (this.exp).replace("+-", "-");
+          this.ultraSTR = (this.ultraSTR).replace("+-", "-");
+        }
+        if ((this.exp).includes("-+")) {
+          this.exp = (this.exp).replace("-+", "-");
+          this.ultraSTR = (this.ultraSTR).replace("-+", "-");
         }
       }
     },
