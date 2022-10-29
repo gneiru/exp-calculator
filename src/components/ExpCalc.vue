@@ -14,7 +14,7 @@
               class="bg-[#FFCACA] col-3 rounded-lg text-black hover:bg-[#372948]"
               :class="{
                 'bg-green-300': ['Clear', 'Minus'].includes(name),
-                'bg-orange-500': ['Trio', 'Dailies', 'Weeklies'].includes(name),
+                'bg-orange-500': ['Trio', 'Dailies', 'Weeklies', 'All Ultras'].includes(name),
               }"
             >
               {{ name }}
@@ -54,16 +54,16 @@
                   "Drakath":6000,
                   "Nulgath":4000,
                   "Drago":2500,
-                  "Kala":2000,
                   "Tyndarius":2000,
                   "Engineer":2000,
                   "Warden":2000,
                   "Ezrajal":2000,
                   "VA Daily":2500,
-                  "Minus":"-",
-                  "Dailies":10000,
-                  "Weeklies":26500,
                   "Trio":6000,
+                  "Minus":"-",
+                  "Dailies":8000,
+                  "Weeklies":26500,
+                  "All Ultras":34500,
                   "Clear": "c"
                 },
       }
