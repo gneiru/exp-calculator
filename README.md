@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# Multus Raid EXP Calculator
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Automatically adds the values by each button clicked.
 
-## Recommended IDE Setup
+# Preview
+![alt text](https://github.com/gneiru/vite-exp-calculator/blob/main/ss.png?raw=true)
+## Button Values
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Daily Ultra : 2000 exp each
+- Ultra Drago : 2500 exp
+- Ultra Nulgath : 4000 exp
+- Champion Drakath and Ultra Dage : 6000 exp each
+- Ultra Darkon : 8000 exp
+- Void Aura Dailies : 2500 exp each
