@@ -89,16 +89,8 @@
         }
         /* Prevents operator signs to Concatenate */
         if ((this.exp).includes("--")) {
-          this.exp = (this.exp).replace("--", "+");
-          this.ultraSTR = (this.ultraSTR).replace("--", "+");
-        }
-        if ((this.exp).includes("++")) {
-          this.exp = (this.exp).replace("++", "-");
-          this.ultraSTR = (this.ultraSTR).replace("++", "-");
-        }
-        if ((this.exp).includes("+-")) {
-          this.exp = (this.exp).replace("+-", "-");
-          this.ultraSTR = (this.ultraSTR).replace("+-", "-");
+          this.exp = (this.exp).replace("--", "-");
+          this.ultraSTR = (this.ultraSTR).replace("--", "-");
         }
         if ((this.exp).includes("-+")) {
           this.exp = (this.exp).replace("-+", "-");
