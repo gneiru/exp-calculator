@@ -4,7 +4,7 @@ Automatically adds the values by each button clicked.
 [Click me to view live](https://gneiru.github.io/vite-exp-calculator/)
 
 # Preview
-![alt text](https://raw.githubusercontent.com/gneiru/vite-exp-calculator/main/public/ss.png)
+![alt text](https://raw.githubusercontent.com/gneiru/exp-calculator/main/public/ss.png)
 ## Button Values
 
 - Daily Ultra : 2000 exp each

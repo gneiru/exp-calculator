@@ -5,12 +5,17 @@ import ExpCalc from './components/ExpCalc.vue';
 </script>
 
 <template>
-  <div class="p-3">Raid EXP Calculator</div>
+  <h1 class="italic m-5">Raid EXP Calculator</h1>
   <ExpCalc />
 </template>
 
 <style scoped>
 * {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+  font-size: xx-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #F97316;
 }
 </style>
